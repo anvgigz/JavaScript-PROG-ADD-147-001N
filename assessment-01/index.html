@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <H1 id="Title">Module 1 Assessment 01: Adding JavaScript to HTML</H1>
+    <script>
+        function changeParagraphText() {
+            document.getElementById("text").innerHTML = "The text has been changed!";
+        }
+        function changeTextColor(color) {
+            document.getElementById("text").style.color = color;
+        }
+
+        
+        function changeImageWidth(width) {
+            document.getElementById("pet").style.width = width;
+        }
+    </script>
+    <button type="button" onclick="changeImageWidth('200px')">Change Image Width 200px</button>
+    <button type="button" onclick="changeImageWidth('500px')">Change Image Width 500px</button>
+    <button type="button" onclick="changeParagraphText()">Change Text (Head Script)</button>
+    <button type="button" onclick="changeTextColor('red')">Change Text Color to Red</button>
+    <button type="button" onclick="changeTextColor('black')">Change Text Color to black</button>
+</head>
+<body>
+  
+    <button onclick="document.getElementById('pet').src='images/cat-323262_1920.jpg'">Relaxing cat</button>
+<button onclick="document.getElementById('pet').src='images/cat-8540772_1920.jpg'">Mysterious cat</button>
+<button onclick="document.getElementById('pet').src='images/cat-2068462_1920.jpg'">Outdoor cat</button>
+<img src="images/cat-2068462_1920.jpg" alt="animal" id="pet" class="center">
+
+        
+    
+        <div class="buttons">
+<!-- script -->
+            <button onclick="document.getElementById('pet').style.display='block'">show</button>
+            <button onclick="document.getElementById('pet').style.display='none'">hide</button>
+        </div>
+
+    <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quisquam ex et similique neque voluptates, dolor inventore distinctio suscipit cum enim sequi explicabo autem corrupti facere magni ipsa odit nihil?</p>
+
+    <script>
+        window.onload = function() {
+            document.getElementById("text").innerHTML += " Additional text added when the page loads.";
+        };
+    </script>
+    
+    <button type="button" onclick="changeParagraphTextExternal()">Change Text (External Script)</button>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
