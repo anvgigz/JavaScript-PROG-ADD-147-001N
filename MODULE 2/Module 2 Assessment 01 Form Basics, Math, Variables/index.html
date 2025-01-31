@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 2 Assessment 01: Form Basics, Math, Variables</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Order Menu</h1>
+    <form id="orderForm">
+        <div>
+            <label for="customerName">Customer Name:</label>
+            <input type="text" id="customerName" name="customerName" required>
+        </div>
+        
+        <h2>Drinks</h2>
+        <div>
+            <label for="drink1">Coke:</label>
+            <input type="number" id="drink1" name="drink1" value="0" min="0">
+        </div>
+        <div>
+            <label for="drink2">Pepsi:</label>
+            <input type="number" id="drink2" name="drink2" value="0" min="0">
+        </div>
+        <div>
+            <label for="drink3">Sprite:</label>
+            <input type="number" id="drink3" name="drink3" value="0" min="0">
+        </div>
+        <div>
+            <label for="drink4">Fanta:</label>
+            <input type="number" id="drink4" name="drink4" value="0" min="0">
+        </div>
+        <div>
+            <label for="drink5">Water:</label>
+            <input type="number" id="drink5" name="drink5" value="0" min="0">
+        </div>
+        
+        <h2>Sandwiches</h2>
+        <div>
+            <label for="sandwich1">Hamburger:</label>
+            <input type="number" id="sandwich1" name="sandwich1" value="0" min="0">
+        </div>
+        <div>
+            <label for="sandwich2">Cheeseburger:</label>
+            <input type="number" id="sandwich2" name="sandwich2" value="0" min="0">
+        </div>
+        <div>
+            <label for="sandwich3">Chicken Sandwich:</label>
+            <input type="number" id="sandwich3" name="sandwich3" value="0" min="0">
+        </div>
+        <div>
+            <label for="sandwich4">BLT:</label>
+            <input type="number" id="sandwich4" name="sandwich4" value="0" min="0">
+        </div>
+        <div>
+            <label for="sandwich5">Veggie Sandwich:</label>
+            <input type="number" id="sandwich5" name="sandwich5" value="0" min="0">
+        </div>
+        
+        <h2>Desserts/Sides</h2>
+        <div>
+            <label for="dessert1">Fries:</label>
+            <input type="number" id="dessert1" name="dessert1" value="0" min="0">
+        </div>
+        <div>
+            <label for="dessert2">Onion Rings:</label>
+            <input type="number" id="dessert2" name="dessert2" value="0" min="0">
+        </div>
+        <div>
+            <label for="dessert3">Salad:</label>
+            <input type="number" id="dessert3" name="dessert3" value="0" min="0">
+        </div>
+        <div>
+            <label for="dessert4">Cookie:</label>
+            <input type="number" id="dessert4" name="dessert4" value="0" min="0">
+        </div>
+        <div>
+            <label for="dessert5">Ice Cream:</label>
+            <input type="number" id="dessert5" name="dessert5" value="0" min="0">
+        </div>
+        
+        <button type="button" onclick="calculateOrder()">Submit Order</button>
+    </form>
+    
+    <h2>Order Summary</h2>
+    <div id="orderSummary"></div>
+    
+    <script src="scripts/script.js"></script>
+</body>
+</html>
