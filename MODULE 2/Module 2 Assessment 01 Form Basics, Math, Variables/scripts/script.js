@@ -1,4 +1,5 @@
 function calculateOrder() {
+    const customerName = document.getElementById("customerName").value;
     const drinks = [
         { id: "drink1", name: "Coke", price: 1.5 },
         { id: "drink2", name: "Pepsi", price: 1.5 },
@@ -52,6 +53,7 @@ function calculateOrder() {
     });
 
     orderSummary += `<h3>Total Cost: $${totalCost.toFixed(2)}</h3>`;
+    orderSummary += `<p>Thank you, ${customerName}!</p>`;
     
     document.getElementById("orderSummary").innerHTML = orderSummary;
 }
