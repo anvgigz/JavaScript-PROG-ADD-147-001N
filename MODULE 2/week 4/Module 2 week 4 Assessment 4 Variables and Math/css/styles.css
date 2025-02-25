@@ -1,0 +1,23 @@
+
+html{
+    background-color: bisque;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}
+
+#game {
+    margin: 50px auto;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#feedback {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
