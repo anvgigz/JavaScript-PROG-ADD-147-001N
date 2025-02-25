@@ -27,8 +27,8 @@ function start() {
     // Random: https://www.w3schools.com/js/js_random.asp
     // create a random integer between 1 and 100 and display in the random2 paragraph
 
-   document.getElementById("random2").innerHTML = ("The random number between 1 and 100 is  Math.floor(Math.random() * 101) ") +
-    Math.floor(Math.random() * 101);
+   const randomNumber = Math.floor(Math.random() * 100) + 1;
+    document.getElementById("random2").innerHTML = "The random number between 1 and 100 is: " + randomNumber;
 
     // Booleans: https://www.w3schools.com/js/js_booleans.asp
     // read the reference
