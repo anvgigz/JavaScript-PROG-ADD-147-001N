@@ -1,0 +1,24 @@
+:root{
+    --bg-color: rgb(66, 16, 107);
+    --container-bg-color: Teal;
+    --primary-color: #4CAF50;
+    --primary-hover-color: #45a049;
+    --remove-btn-bg-color: #f44336;
+    --remove-btn-hover-bg-color: #e53935;
+    --font-family: Arial, sans-serif;
+    --padding: 20px;
+    --border-radius: 8px;
+    --box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    --width: 300px;
+}
+
+html{
+    background-color: var(--bg-color);
+ 
+}
+p{
+    color: white;
+}
+h1{
+    color: white;
+}
