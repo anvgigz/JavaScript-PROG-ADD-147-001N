@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Item Purchase</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Purchase Your Items</h1>
+    <form id="purchaseForm">
+      <label for="groceryItems">Grocery Items:</label>
+      <select id="groceryItems"></select>
+
+      <label for="itemQuantity">Quantity:</label>
+      <input type="number" id="itemQuantity" required min="1">
+
+      <button type="submit">Add to Cart</button>
+    </form>
+    <button id="saveCartBtn">Save Your Cart</button>
+    <div id="cart">
+      <h2>Shopping Cart</h2>
+      <ul id="cartItems"></ul>
+      <p>Total Cost: <span id="totalCost">0</span></p>
+    </div>
+    <div id="retrieveCart">
+      <h2>Retrieve Cart</h2>
+      <!-- By using the for="cartId", the label is placed next to the input for readability also it associates the label with the input box -->
+      <label for="cartId">Enter Cart ID:</label>
+      <input type="text" id="cartId">
+      <button id="loadCartBtn">Load Cart</button>
+    </div>
+  </div>
+  <script src="./script/script.js"></script>
+</body>
+</html>

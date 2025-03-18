@@ -1,0 +1,74 @@
+/* Define CSS variables in :root */
+:root {
+  --bg-color: Black;
+  --container-bg-color: Teal;
+  --primary-color: #4CAF50;
+  --primary-hover-color: #45a049;
+  --remove-btn-bg-color: #f44336;
+  --remove-btn-hover-bg-color: #e53935;
+  --font-family: Arial, sans-serif;
+  --padding: 20px;
+  --border-radius: 8px;
+  --box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  --width: 300px;
+}
+
+
+
+
+/* Body Styles */
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container Styles */
+.container {
+  background-color: var(--container-bg-color);
+  padding: var(--padding);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  width: var(--width);
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label, input, select, button {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--primary-hover-color);
+}
+
+/* Remove Button Styles */
+.remove-btn {
+  background-color: var(--remove-btn-bg-color);
+  color: white;
+  border: none;
+  padding: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background-color: var(--remove-btn-hover-bg-color);
+}
