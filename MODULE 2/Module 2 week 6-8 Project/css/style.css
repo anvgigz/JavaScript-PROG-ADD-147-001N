@@ -13,7 +13,29 @@
   --width: 300px;
 }
 
+.custom-shape-divider-top-1741274803 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  
+}
 
+.custom-shape-divider-top-1741274803 svg {
+  position: relative;
+  display: block;
+  width: calc(300% + 1.3px);
+  height: 500px;
+  
+}
+
+.custom-shape-divider-top-1741274803 .shape-fill {
+  fill: #EE1C1C;
+  
+}
 
 
 /* Body Styles */
@@ -28,6 +50,14 @@ body {
   height: 100vh;
 }
 
+.left-side-gif{
+  position: relative;
+}
+.right-side-gif{
+  z-index: 1;
+}
+
+
 /* Container Styles */
 .container {
   background-color: var(--container-bg-color);
@@ -35,6 +65,7 @@ body {
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
   width: var(--width);
+  position: relative;
 }
 
 /* Form Styles */

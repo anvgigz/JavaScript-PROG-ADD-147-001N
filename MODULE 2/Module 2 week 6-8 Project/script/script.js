@@ -144,6 +144,44 @@ window.addEventListener('beforeunload', () => {
 // when page load is triggered 'load' event listener will call the function loadSavedCartOnPageLoad
 window.addEventListener('load', loadSavedCartOnPageLoad);
 
-// Event listeners for save and load buttons
-saveCartBtn.addEventListener('click', saveCart);
-loadCartBtn.addEventListener('click', loadCart);
+// Directly use your uploaded GIFs
+var firstGifUrl = 'https://media.giphy.com/media/9HvSYzyXrswAwMa3lp/giphy.gif';
+var secondGifUrl = 'https://media.giphy.com/media/9lRAThgYghhZ7Inpza/giphy.gif';
+
+// Create an <img> element to display the first GIF
+var firstGif = document.createElement('img');
+firstGif.src = firstGifUrl;
+
+// Append the first GIF to the <div class="left-side-gif">
+var leftSideDiv = document.querySelector('.left-side-gif');
+leftSideDiv.appendChild(firstGif);
+
+// Create an <img> element to display the second GIF
+var secondGif = document.createElement('img');
+secondGif.src = secondGifUrl;
+
+// Append the second GIF to the <div class="right-side-gif">
+var rightSideDiv = document.querySelector('.right-side-gif');
+rightSideDiv.appendChild(secondGif);
+
+
+
+// var request = new XMLHttpRequest();
+
+// request.open('GET', 'https://api.giphy.com/v1/gifs/random?api_key=ByikeXhcdSzG2yGw1Qk4TzoWj1RpCzQl&tag=apple&rating=g');
+
+// https://media.giphy.com/media/9HvSYzyXrswAwMa3lp/giphy.gif
+// request.onload = function() {
+// 	var response = request.response;
+// 	var parsedData = JSON.parse(response);
+// 	console.log(parsedData);
+// 	var originalUrl = parsedData.data.images.original.url;
+// 	console.log(originalUrl);
+
+//   var gif = document.createElement('img');
+//   gif.src = originalUrl;
+//   document.body.appendChild(gif);
+// };
+
+// request.send();
+
