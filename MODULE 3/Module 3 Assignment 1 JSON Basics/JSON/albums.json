@@ -1,0 +1,44 @@
+{
+    "albums": [
+      {
+        "album": "Led Zeppelin IV",
+        "artist": "Led Zeppelin"
+      },
+      {
+        "album": "The Dark Side of the Moon",
+        "artist": "Pink Floyd"
+      },
+      {
+        "album": "Back in Black",
+        "artist": "AC/DC"
+      },
+      {
+        "album": "Rumours",
+        "artist": "Fleetwood Mac"
+      },
+      {
+        "album": "Nevermind",
+        "artist": "Nirvana"
+      },
+      {
+        "album": "Appetite for Destruction",
+        "artist": "Guns N' Roses"
+      },
+      {
+        "album": "Born to Run",
+        "artist": "Bruce Springsteen"
+      },
+      {
+        "album": "Hotel California",
+        "artist": "Eagles"
+      },
+      {
+        "album": "A Night at the Opera",
+        "artist": "Queen"
+      },
+      {
+        "album": "American Idiot",
+        "artist": "Green Day"
+      }
+    ]
+  }

@@ -1,0 +1,49 @@
+{
+    "albums": {
+      "Led Zeppelin IV": [
+        "Black Dog",
+        "Rock and Roll",
+        "Stairway to Heaven",
+        "Misty Mountain Hop",
+        "Four Sticks",
+        "Going to California",
+        "When the Levee Breaks"
+      ],
+      "The Dark Side of the Moon": [
+        "Speak to Me",
+        "Breathe",
+        "Time",
+        "Money",
+        "Us and Them",
+        "Brain Damage",
+        "Eclipse"
+      ],
+      "Rumours": [
+        "Second Hand News",
+        "Dreams",
+        "Never Going Back Again",
+        "Go Your Own Way",
+        "The Chain",
+        "You Make Loving Fun",
+        "Gold Dust Woman"
+      ],
+      "Nevermind": [
+        "Smells Like Teen Spirit",
+        "In Bloom",
+        "Come as You Are",
+        "Lithium",
+        "Drain You",
+        "Polly",
+        "Something in the Way"
+      ],
+      "Back in Black": [
+        "Hells Bells",
+        "Shoot to Thrill",
+        "Back in Black",
+        "You Shook Me All Night Long",
+        "Have a Drink on Me",
+        "Shake a Leg",
+        "Rock and Roll Ain't Noise Pollution"
+      ]
+    }
+  }
