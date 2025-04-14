@@ -1,0 +1,16 @@
+html{
+    background-color: teal;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#moveable {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    margin: 50px auto;
+}
