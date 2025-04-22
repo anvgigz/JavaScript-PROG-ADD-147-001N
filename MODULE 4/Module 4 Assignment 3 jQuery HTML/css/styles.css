@@ -1,0 +1,74 @@
+:root {
+    --font-family: Arial, sans-serif;
+    --background-color: teal;
+    --text-color: black;
+    --font-size-small: 12px;
+    --font-size-large: 20px;
+}
+
+
+
+.custom-shape-divider-top-1744300486 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1744300486 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 359px;
+}
+
+.custom-shape-divider-top-1744300486 .shape-fill {
+    fill: #FFD700;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+    transform: scale(1.1);
+}
+input{
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 5px;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+}
+
+.form-container__button--dark-mode{
+    --background-color: black;
+    --text-color: white;
+}
+
+.form-container__button--increase-font {
+    font-size: var(--font-size-large);
+}
+
+.form-container__button--decrease-font {
+    font-size: var(--font-size-small);
+}
